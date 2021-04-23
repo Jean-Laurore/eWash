@@ -1,6 +1,5 @@
 $(document).ready(function() {
     
-    
     /* For the sticky navigation */
     $('.js--section-features').waypoint(function(direction) {
         if (direction == "down") {

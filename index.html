@@ -3,45 +3,461 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="eWash is a premium car wash delivery service with the mission to bring affortable and spotless wash to as many people as possible.">
+
   <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
   <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="stylesheet" type="text/css" href="resources/css/style.css">
   <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <style>
-    
+
   </style>
   <title>eWash</title>
+  <!-- favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/resources/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/resources/favicons/safari-pinned-tab.svg" color="#d43f3f">
+  <link rel="shortcut icon" href="/resources/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
 </head>
 <body>
   <header>
-    <nav>
+    <nav class="sticky">
       <div class="row">
         <img src="resources/img/logo-white.png" alt="eWash logo" class="logo">
-        <ul class="main-nav">
-          <li><a href="#">Wash Delivery</a></li>
-          <li><a href="#">How it works</a></li>
-          <li><a href="#">Our cities</a></li>
-          <li><a href="#">Sign up</a></li>
+        <img src="resources/img/logo-black.png" alt="eWash logo" class="logo-black">
+        <ul class="main-nav js--main-nav">
+          <li><a href="#features">Wash Delivery</a></li>
+          <li><a href="#works">How it works</a></li>
+          <li><a href="#cities">Our cities</a></li>
+          <li><a href="#plans">Sign up</a></li>
         </ul>
+        <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
       </div>
     </nav>
     <div class="hero-text-box">
       <h1>Don’t drive to the car wash.<br>Let our car wash drive to you.</h1>
-      <a class="btn btn-full" href="#">Detailing Services</a>
-      <a class="btn btn-ghost" href="#">Show me more</a>
+      <a class="btn btn-full js--scroll-to-plans" href="#">Detailing Services</a>
+      <a class="btn btn-ghost js--scroll-to-start" href="#">Show me more</a>
     </div>
 
   </header>
 
+<section class="section-features js--section-features" id="features">
+  <div class="row">
+    <h2>Nothing feels finer than a spotless, shiny car every day!</h2>
+    <p class="long-copy">
+      Hello, we’re eWash, your new premium car wash delivery service. We know you’re always busy. No time to drive to the car wash station. So let us take care of that, we’re really good at it, we promise!
+    </p>
+  </div>
+  
+  <div class="row js--wp-1">
+    <div class="col span-1-of-3 box">
+      <span class="material-icons icon-big">
+        all_inclusive
+        </span>
+        <h3>Up to 365 days/year</h3>
+      <p>Hassle-free car wash! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.</p>
+    </div>
+
+    <div class="col span-1-of-3 box">
+      <span class="material-icons icon-big">
+        alarm
+        </span>
+      <h3>Ready in 20 minutes</h3>
+      <p>You're only twenty minutes away from getting your car polish and super shine inside and out with our detailing services. We work with the best engineers car wash in each town to ensure that you're 100% happy.</p>
+    </div>
+
+    <div class="col span-1-of-3 box">
+      <span class="material-icons icon-big">
+        local_car_wash
+        </span>
+      <h3>The gift of clean</h3>
+      <p>Nothing feels better than driving a clean car. eWash has the exterior and interior wash you're looking for. Choose from one of our wash packages and we will have your vehicle clean and shining in no time.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section-wash">
+  <ul class="wash-showcase clearfix">
+    <li>
+      <figure class="wash-photo">
+        <img src="resources/img/19.jpg" alt="Woman in red keeping it spotless">
+      </figure>
+    </li>
+    <li>
+      <figure class="wash-photo">
+        <img src="resources/img/10.jpg" alt="Full body wash">
+      </figure>
+    </li><li>
+      <figure class="wash-photo">
+        <img src="resources/img/6.jpg" alt="Full body wash">
+      </figure>
+    </li><li>
+      <figure class="wash-photo">
+        <img src="resources/img/2.jpg" alt="Tire shine">
+      </figure>
+    </li>
+  </ul>
+  <ul class="wash-showcase clearfix">
+    <li>
+      <figure class="wash-photo">
+        <img src="resources/img/17.jpg" alt="Lights wash">
+      </figure>
+    </li>
+    <li>
+      <figure class="wash-photo">
+        <img src="resources/img/11.jpg" alt="Windshield wash">
+      </figure>
+    </li><li>
+      <figure class="wash-photo">
+        <img src="resources/img/15.jpg" alt="Full body wash">
+      </figure>
+    </li><li>
+      <figure class="wash-photo">
+        <img src="resources/img/13.jpg" alt="Front bumper spotless">
+      </figure>
+    </li>
+  </ul>
+</section>
+
+<section class="section-steps" id="works">
+  <div class="row">
+    <h2>How it works &mdash; Simple as 1, 2, 3</h2>
+  </div>
+  <div class="row">
+    <div class="col span-1-of-2 steps-box">
+      <img src="resources/img/app_onPhone.png" alt="eWash app on iPhone" class="app-screen js--wp-2">
+    </div>
+    <div class="col span-1-of-2 steps-box">
+      <div class="works-step">
+        <div>1</div>
+        <p>Choose the subscription plan that best fits your needs and sign up today.</p>
+      </div>
+      <div class="works-step">
+        <div>2</div>
+        <p>Order your car wash using our mobile app or website. Or you can even call us!</p>
+      </div>
+      <div class="works-step">
+        <div>3</div>
+        <p>Expect us to arrive in less than 20 minutes. See you next time!</p>
+      </div>
+
+      <a href="#" class="btn-app"><img src="resources/img/download-app.svg" alt="App Store Button"></a>
+      <a href="#" class="btn-app"><img src="resources/img/download-app-android.png" alt="Play Store Button"></a>
+
+    </div>
+  </div>
+</section>
+
+<section class="section-cities" id="cities">
+  <div class="row">
+    <h2>We're currently in these cities</h2>
+  </div>
+  <div class="row js--wp-3">
+    <div class="col span-1-of-4 box">
+      <img src="resources/img/orlando.jpg" alt="Orlando">
+      <h3>Orlando</h3>
+      <div class="city-feature">
+        <span class="material-icons icon-small">
+          person
+          </span>
+          1600+ customers
+        </div>
+        <div class="city-feature">
+          <span class="material-icons icon-small">
+            star
+            </span>
+            60+ top washers
+          </div>
+          <div class="city-feature">
+            <span class="ion-social-instagram icon-small"></span>
+            <a href="#">@ewash_o</a>
+            </div>
+    </div>
+    <div class="col span-1-of-4 box">
+      <img src="resources/img/miami.jpg" alt="Miami">
+      <h3>Miami</h3>
+      <div class="city-feature">
+        <span class="material-icons icon-small">
+          person
+          </span>
+          3700+ customers
+        </div>
+        <div class="city-feature">
+          <span class="material-icons icon-small">
+            star
+            </span>
+            160+ top washers
+          </div>
+          <div class="city-feature">
+            <i class="ion-social-instagram icon-small"></i>
+            <a href="#">@ewash_mia</a>
+          </div>
+    </div>
+    <div class="col span-1-of-4 box">
+      <img src="resources/img/tampa.jpg" alt="Tampa">
+      <h3>Tampa</h3>
+      <div class="city-feature">
+        <span class="material-icons icon-small">
+          person
+          </span>
+          2300+ customers
+        </div>
+        <div class="city-feature">
+          <span class="material-icons icon-small">
+            star
+            </span>
+            110+ top washers
+          </div>
+          <div class="city-feature">
+            <i class="ion-social-instagram icon-small"></i>
+            <a href="#">@ewash_ta</a>
+          </div>
+        </div>
+        <div class="col span-1-of-4 box">
+          <img src="resources/img/jacksonville.jpg" alt="Jacksonville">
+          <h3>Jacksonville</h3>
+          <div class="city-feature">
+            <span class="material-icons icon-small">
+              person
+              </span>
+              1200+ customers
+            </div>
+            <div class="city-feature">
+              <span class="material-icons icon-small">
+                star
+                </span>
+                50+ top washers
+              </div>
+              <div class="city-feature">
+                <i class="ion-social-instagram icon-small"></i>
+                <a href="#">@ewash_jax</a>
+              </div>
+</div>
+  </div>
+</section>
+
+<section class="section-testimonials">
+  <div class="row">
+    <h2>Our customers can't live without us</h2>
+  </div>
+  <div class="row">
+    <div class="col span-1-of-3">
+      <blockquote>
+        eWash is just awesome! I just launched a startup which leaves me with no time for washing my vehicle, so eWash is a life-saver. 
+        Now that I got used to it, I couldn't live without my weekly wash!
+        <cite><img src="resources/img/customer-4.jpg" alt="Customer 1 Photo">(Catalina Pareja)</cite>
+      </blockquote>
+    </div>
+    <div class="col span-1-of-3">
+      <blockquote>
+        Inexpensive, shine and great detail service, delivered right to my home. 
+        We have lots of car wash stations here in Orlando, but no one comes even close to eWash. Me and my family are so in love!
+        <cite><img src="resources/img/customer-5.jpg" alt="Customer 2 Photo">(Joana Silva)</cite>
+      </blockquote>
+    </div>
+    <div class="col span-1-of-3">
+      <blockquote>
+        I was looking for a quick and easy car wash delivery service in Miami. 
+        I tried a lot of them and ended up with eWash. Best car wash delivery service in the mia area. Keep up the great work!
+        <cite><img src="resources/img/customer-6.jpg " alt="Customer 3 Photo">(Milton Chapman)</cite>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="section-plans js--section-plans" id="plans">
+  <div class="row">
+    <h2>We built the perfect packages just for you!</h2>
+  </div>
+  <div class="row">
+    <div class="col span-1-of-3">
+      <div class="plan-box js--wp-4">
+        <div>
+          <h3>Premium</h3>
+          <p class="plan-price">$299 <span>/ month</span></p>
+          <p class="plan-price-wash">That’s only $9.97 per wash</p>
+          <p class="plan-minutes-wash">From 200 to 240 minutes</p>
+        </div>
+        <div>
+          <ul>
+            <li><span class="material-icons icon-small">done</span>1 car wash every day</li>
+            <li><span class="material-icons icon-small">done</span>Full exterior hand wash</li>
+            <li><span class="material-icons icon-small">done</span>Tire dressing & rim cleaning</li>
+            <li><span class="material-icons icon-small">done</span>Exterior window cleaning & interior</li>
+            <li><span class="material-icons icon-small">done</span>Trunk vacuum</li>
+            <li><span class="material-icons icon-small">done</span>Interior wipe down</li>
+            <li><span class="material-icons icon-small">done</span>Mats & carpets shampooed</li>
+            <li><span class="material-icons icon-small">done</span>Leather cleaning & conditioning</li>
+            <li><span class="material-icons icon-small">done</span>Door jambs</li>
+            <li><span class="material-icons icon-small">done</span>Shampoo seats</li>
+          </ul>
+        </div>
+        <div>
+          <a href="#" class="btn btn-full">Sign up now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col span-1-of-3">
+      <div class="plan-box">
+        <div>
+          <h3>Pro</h3>
+          <p class="plan-price">$185 <span>/ month</span></p>
+          <p class="plan-price-wash">That’s only $6.20 per wash</p>
+          <p class="plan-minutes-wash">From 55 to 70 minutes</p>
+        </div>
+        <div>
+          <ul>
+            <li><span class="material-icons icon-small">done</span>1 car wash every day</li>
+            <li><span class="material-icons icon-small">done</span>Full exterior hand wash</li>
+            <li><span class="material-icons icon-small">done</span>Tire dressing & rim cleaning</li>
+            <li><span class="material-icons icon-small">done</span>Exterior window cleaning & interior</li>
+            <li><span class="material-icons icon-small">done</span>Trunk vacuum</li>
+            <li><span class="material-icons icon-small">done</span>Interior wipe down</li>
+            <li><span class="material-icons icon-small">done</span>Door jambs</li>
+          </ul>
+        </div>
+        <div>
+          <a href="#" class="btn btn-ghost">Sign up now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col span-1-of-3">
+      <div class="plan-box">
+        <div>
+          <h3>Starter</h3>
+          <p class="plan-price">$79 <span>/ wash</span></p>
+          <p class="plan-minutes-wash">From 90 to 120 minutes</p>
+          <p class="plan-minutes-wash">&nbsp;</p>
+        </div>
+        <div>
+          <ul>
+            <li><span class="material-icons icon-small">done</span>1 car wash every day</li>
+            <li><span class="material-icons icon-small">done</span>Full exterior hand wash</li>
+            <li><span class="material-icons icon-small">done</span>Tire dressing & rim cleaning</li>
+            <li><span class="material-icons icon-small">done</span>Exterior window cleaning & interior</li>
+            <li><span class="material-icons icon-small">done</span>Trunk vacuum</li>
+            <li><span class="material-icons icon-small">done</span>Interior wipe down</li>
+            <li><span class="material-icons icon-small">done</span>Complete wax for protect & shine</li>
+            <li><span class="material-icons icon-small">done</span>Leather cleaning & conditioning</li>
+            <li><span class="material-icons icon-small">done</span>Light stain removal</li>
+          </ul>
+        </div>
+        <div>
+          <a href="#" class="btn btn-ghost">Sign up now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-form">
+  <div class="row">
+    <h2>We're happy to hear from you</h2>
+  </div>
+  <div class="row">
+    <form method="POST" action="#" class="contact-form">
+      <div class="row">
+        <div class="col span-1-of-3">
+          <label for="name">Name</label>
+        </div>
+        <div class="col span-2-of-3">
+          <input type="text" name="name" id="name" placeholder="Your name" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-3">
+          <label for="email">Email</label>
+        </div>
+        <div class="col span-2-of-3">
+          <input type="email" name="email" id="email" placeholder="Your email" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-3">
+          <label>How did you find us?</label>
+        </div>
+        <div class="col span-2-of-3">
+          <select name="find-us" id="find-us">
+            <option value="friends" selected>Friends</option>
+            <option value="search">Search Engine</option>
+            <option value="ad">Advertisement</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-3">
+          <label>Newsletter?</label>
+        </div>
+        <div class="col span-2-of-3">
+          <input type="checkbox" name="news" id="news" checked>Yes, please
+        </div>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-3">
+          <label>Drop us a line</label>
+        </div>
+        <div class="col span-2-of-3">
+          <textarea name="message" placeholder="Your message"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-3">
+          <label>&nbsp;</label>
+        </div>
+        <div class="col span-2-of-3">
+          <input type="submit" value="Send it!">
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="row">
+    <div class="col span-1-of-2">
+      <ul class="footer-nav">
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">iOS App</a></li>
+        <li><a href="#">Android App</a></li>
+      </ul>
+    </div>
+    <div class="col span-1-of-2">
+      <ul class="social-links">
+        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+        <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+        <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+        <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <p>
+    Copyright &copy; 2021 by eWash. All rights reserved.
+    </p>
+  </div>
+</footer>
+  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
     <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
     <script src="vendors/js/jquery.waypoints.min.js"></script>
-    <script src="resources/js/script.js"></script>
+    <script src="resources/js/script_test.js"></script>
+    <!-- <script src="resources/js/script.js"></script> -->
     <!-- <script src="resources/js/app.js"></script> -->
 </body>
 </html>
